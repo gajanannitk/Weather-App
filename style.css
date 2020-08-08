@@ -1,0 +1,46 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body
+{
+    height: 100vh;
+    background: linear-gradient(skyblue,blue);
+    overflow-y: hidden;
+}
+.hero,.main,.city,.desc{
+    text-align: center;
+    color: rgb(247, 246, 248);
+    margin-top: 20px;
+    font-size: 60px;
+    font-family:'Montserrat', sans-serif;
+}
+.hero{
+    font-family: 'Kaushan Script', cursive;
+}
+.line{
+    font-size: 30px;
+    color: black;
+}
+.city,.country{
+    font-size: 48px;
+}
+.wnd{
+    font-size: 48px;
+}
+.desc{
+    font-size: 42px;
+}
+.wind{
+    font-size: 30px;
+    color: black;
+}
+footer{
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
